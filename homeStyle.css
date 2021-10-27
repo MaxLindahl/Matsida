@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(167, 167, 167);
+}
+
+.centerContainer {
+    position: relative;
+}
+
+.topBar {
+    width: 80%;
+    height: 20rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-wrapper {
+    width: 80%;
+    height: 30rem;
+    background-color: rgb(196, 0, 0);
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.itemContainer {
+    width: 80%;
+    height: 80rem;
+    background-color: rgb(89, 0, 255);
+    position: absolute;
+    top: 90rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
