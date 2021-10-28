@@ -12,19 +12,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="centerContainer">
-            <div class="topBar">
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> homebuy </a>
 
-            </div>
-            <div class="image-wrapper">
-
-            </div>
-            <div class="itemContainer">
-
-            </div>
+        <nav class="navbar">
+            <a href="#hem">hem</a>
+            <a href="#erbjudanden">erbjudanden</a>
+            <a href="#produkter">produkter</a>
+            <a href="#kategorier">kategorier</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
         </div>
-    </div>
-    
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Sök vara...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/temp.jpg" alt="">
+                <div class="content">
+                    <h3>vattenmelon</h3>
+                    <span class="pris">49kr</span>
+                    <span class="antal">antal : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/temp.jpg" alt="">
+                <div class="content">
+                    <h3>lök</h3>
+                    <span class="pris">49kr</span>
+                    <span class="antal">antal : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/temp.jpg" alt="">
+                <div class="content">
+                    <h3>kyckling</h3>
+                    <span class="pris">49kr</span>
+                    <span class="antal">antal : 1</span>
+                </div>
+            </div>
+            <div class="slutsumma"> slutsumma : 197kr</div>
+            <a href="#" class="btn">Till kassa</a>
+        </div>
+        
+        <form action="" class="login-form">
+            <h3>Logga in</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="lösenord" placeholder="lösenord" class="box">
+            <p>glömt lösenordet? <a href="#">tryck här</a></p>
+            <p>inget konto? <a href="#">skapa ett här</a></p>
+            <input type="submit" value="logga in" class="btn">
+        </form>
+    </header>
+    <script src="homebuyScript.js"></script>
 </body>
 </html>
